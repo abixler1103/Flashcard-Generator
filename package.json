@@ -1,19 +1,23 @@
 {
-  "name": "flashcard-generator",
-  "version": "1.0.0",
-  "description": "flashcard came using constructors in node",
-  "main": "BasicCard.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abixler1103/Flashcard-Generator.git"
-  },
-  "author": "Ashley Bixler",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abixler1103/Flashcard-Generator/issues"
-  },
-  "homepage": "https://github.com/abixler1103/Flashcard-Generator#readme"
+    "name": "flashcard-generator",
+    "version": "1.0.0",
+    "description": "flashcard came using constructors in node",
+    "main": "BasicCard.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/abixler1103/Flashcard-Generator.git"
+    },
+    "author": "Ashley Bixler",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/abixler1103/Flashcard-Generator/issues"
+    },
+    "homepage": "https://github.com/abixler1103/Flashcard-Generator#readme",
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "inquirer": "^3.2.0"
+    }
 }
