@@ -104,7 +104,7 @@ var addCard = function() {
     });
 };
 
-var whatsUpNext = function() {
+var whatsNext = function() {
     // get user input
     inquirer.prompt([{
         name: 'nextAction',

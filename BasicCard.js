@@ -4,7 +4,7 @@ var fs = require("fs");
 module.exports = BasicFlashcard;
 
 // constructor for BasicFlashcard
-function BasicFlashcard(front, back) {
+var BasicFlashcard = function(front, back) {
     this.front = front;
     this.back = back;
     this.create = function() {
